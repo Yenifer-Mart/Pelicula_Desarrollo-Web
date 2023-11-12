@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Peliculas favoritas del momento</h1>
+    </header>
+    <main>
+        <div id="sidebar">
+            <label for="genre-select">Selecciona un género:</label>
+            <select id="genre-select"></select>
+            <label for="language-select">Selecciona un idioma:</label>
+            <select id="language-select">
+                <option value="es">Español</option>
+                <option value="en">Inglés</option>
+            </select>
+        </div>
+        <div id="content">
+            <div id="movie-list"></div>
+            <div id="pagination">
+                <button id="prev-page" disabled>Anterior</button>
+                <button id="next-page">Siguiente</button>
+            </div>
+        </div>
+    </main>
+    <script src="tests.js"></script>
+</body>
+</html>

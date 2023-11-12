@@ -1,0 +1,99 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url('fondo.jpg');
+    color: white; /* Texto principal en color blanco */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#sidebar {
+    width: 30%;
+}
+
+#content {
+    width: 65%;
+}
+
+label, select, button {
+    margin-bottom: 10px;
+    display: block;
+}
+
+select, button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+#movie-list {
+    margin-top: 20px;
+}
+
+#pagination {
+    margin-top: auto;
+}
+
+#prev-page, #next-page {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#next-page {
+    margin-top: 10px;
+}
+
+.movie-container {
+    text-align: center;
+    background-color: black;
+    color: white; /* Texto de la película en color blanco */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.movie-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+header h1 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: oblique;
+   font-size: 40px;
+   color: #ffff;
+}
+
+.movie-card p {
+    font-size: 15px;
+    text-align: center;
+    color: #ffff; 
+  font-family:'Times New Roman', Times, serif
+}
